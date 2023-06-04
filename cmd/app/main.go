@@ -44,24 +44,6 @@ func main() {
 	fmt.Printf("Товары в ответе: %v\n\n", products3_)
 	fmt.Printf("Товары в ответе products3 skus: %v\n", products3)
 
-	// Создание рекламной компании.
-	// campaignId, err := campaignService.Create("CPC", true)
-	// fmt.Println("campaignId", campaignId)
-	// fmt.Println("err", err)
-
-	// Создание рекламной компании.
-	// campaignId, err := campaignService.Create("CPM", false)
-	// fmt.Println("campaignId", campaignId)
-	// fmt.Println("err", err)
-
-	// Активация рекламной компании.
-	// err = ozonApi.ActivateCampaign("3635809")
-	// fmt.Println("Activate", err)
-
-	// Деактивация рекламной компании.
-	// err = ozonApi.DeactivateCampaign("3635809")
-	// fmt.Println("Deactivate", err)
-
 	// Удалить все товары из рекламной компании.
 	// err = RemoveAllProductFromCampaign(campaignProductService, "3636696")
 	// fmt.Println(err)
